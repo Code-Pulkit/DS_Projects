@@ -15,7 +15,7 @@ So Basically project :
      Basically I observed and found that each line was basically timestamp - 
      Then If there is a notification , no : were there , but in case of some convo the chats had User : Message Format. 
      
-     \s - whitespace 
+     \s - whitespace  
      \d - character 
      
      user_msg = re.split()[1:]
@@ -23,9 +23,11 @@ So Basically project :
      
   2. Futher the dataset was prepared in this way, not by read_csv. 
     Since I had exported the file without media , all the messages where there was media got <media-ommited>
-    
     Basic EDA included watchin How many messages has every group member done.
-    Which hour had the most messages? - It showed that 8pm to 10pm was the most chatting time and nearly no message from 3am to 7am in the whole history.
+    
+      Which hour had the most messages?  
+      It showed that 8pm to 10pm was the most chatting time and nearly no message from 3am to 7am in the whole history.
+    
     Then I compared the traffic on Weekends vs Weekdays of the top 5 users ? 
     The messages were comparitley high on Fridays -maybe due to ITC meetings.
     
