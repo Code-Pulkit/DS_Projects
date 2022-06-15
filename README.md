@@ -22,7 +22,6 @@ So Basically project :
      date_time = re.findall(split_formats[key], raw_string) 
      
   2. Futher the dataset was prepared in this way, not by read_csv. 
-   
     Since I had exported the file without media , all the messages where there was media got <media-ommited>
     
     Basic EDA included watchin How many messages has every group member done.
